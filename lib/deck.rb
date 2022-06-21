@@ -20,11 +20,8 @@ class Deck
     return cards.shuffle
   end
 
-  def deal (number = 4)
-    return @cards.pop(number)
+  def deal
+    # Your code here
   end
 
-  def display_deck_size
-    puts "There are #{@cards.length} cards in the deck"
-  end
 end
